@@ -1,0 +1,78 @@
+00:00:00,"[956840970] <inf> kernel: Booting Zephyr OS build v3.2.0-rc1-44-g86943d97e617
+"
+00:00:00,"[956840970] <inf> main: Embedded System Demo started
+"
+00:00:00,"[956840970] <dbg> gpio: Configuring GPIO pins
+"
+00:00:00,"[956840970] <inf> i2c: Initializing I2C bus
+"
+00:00:00,"[956840970] <b><span style=""color:#A50""><wrn> i2c: I2C device not responding at address 0x48</span></b>
+"
+00:00:00,"[956840970] <b><span style=""color:#A00""><err> i2c: Failed to initialize temperature sensor</span></b>
+"
+00:00:00,"[956840970] <inf> spi: Initializing SPI bus
+"
+00:00:00,"[956840970] <inf> adc: Setting up ADC for battery monitoring
+"
+00:00:00,"[956840970] <inf> pwm: Configuring PWM for LED control
+"
+00:00:00,"[956840970] <inf> net: Initializing network stack
+"
+00:00:00,"[956840970] <inf> net: MAC address 00:11:22:33:44:55
+"
+00:00:00,"[956840970] <dbg> net: Waiting for IP address...
+"
+00:00:01,"[956840971] <inf> net: IP address acquired: 192.168.1.100
+"
+00:00:01,"[956840971] <inf> main: System initialization complete
+"
+00:00:01,"[956840971] <inf> sensor: Starting sensor readings
+"
+00:00:01,"[956840971] <dbg> sensor: Reading accelerometer data
+"
+00:00:01,"[956840971] <inf> sensor: Accelerometer: X=0.1 Y=-0.2 Z=9.8
+"
+00:00:01,"[956840971] <dbg> sensor: Reading gyroscope data
+"
+00:00:01,"[956840971] <inf> sensor: Gyroscope: X=0.01 Y=0.02 Z=-0.01
+"
+00:00:01,"[956840971] <b><span style=""color:#A50""><wrn> battery: Low battery: 15%</span></b>
+"
+00:00:01,"[956840971] <inf> power: Entering low power mode
+"
+00:00:02,"[956840972] <inf> timer: Watchdog reset
+"
+00:00:02,"[956840972] <dbg> mem: Memory usage: 24KB used, 40KB free
+"
+00:00:02,"[956840972] <inf> task: Starting background task
+"
+00:00:02,"[956840972] <b><span style=""color:#A00""><err> task: Stack overflow in task 0x2000</span></b>
+"
+00:00:02,"[956840972] <inf> kernel: Recovering from error...
+"
+00:00:02,"[956840972] <inf> kernel: Error recovery complete
+"
+00:00:02,"[956840972] <inf> net: Sending data to server
+"
+00:00:02,"[956840972] <b><span style=""color:#A50""><wrn> net: Weak WiFi signal strength</span></b>
+"
+00:00:02,"[956840972] <b><span style=""color:#A00""><err> net: Failed to send data, retrying...</span></b>
+"
+00:00:02,"[956840972] <inf> net: Data sent successfully
+"
+00:00:02,"[956840972] <dbg> gpio: Button press detected on GPIO 13
+"
+00:00:02,"[956840972] <inf> led: Toggling LED state
+"
+00:00:03,"[956840973] <inf> sensor: Temperature: 25.5°C
+"
+00:00:03,"[956840973] <b><span style=""color:#A50""><wrn> sensor: Temperature approaching critical level</span></b>
+"
+00:00:03,"[956840973] <inf> actuator: Activating cooling system
+"
+00:00:03,"[956840973] <dbg> i2c: Writing configuration to EEPROM
+"
+00:00:03,"[956840973] <inf> main: System running normally
+"
+00:00:03,"[956840973] <inf> kernel: Entering sleep mode...
+"
